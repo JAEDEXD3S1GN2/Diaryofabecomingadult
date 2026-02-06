@@ -30,10 +30,12 @@ export default {
         robotocondensed: ['"Roboto Condensed"', 'sans-serif'],
         montserrat: ["'Montserrat'", 'sans-serif'],
         Inter: ["'Inter'", 'sans-serif'],
-
+        Merriwether: ["'Merriweather'", 'sans-serif'],
+        Worksans: ["'Work Sans'", 'sans-serif'],
       },
     },
   },
   plugins: [],
 };
+
 
