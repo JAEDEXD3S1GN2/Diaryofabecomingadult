@@ -33,10 +33,10 @@ const Themes = () => {
       <div className="max-w-7xl mx-auto px-6">
         {/* Section Header */}
         <div className="text-center max-w-2xl mx-auto mb-20">
-          <h2 className="text-4xl md:text-5xl font-diary text-blackBrand">
+          <h2 className="text-4xl md:text-5xl font-diary font-Inter text-blackBrand">
             What This Diary Is About
           </h2>
-          <p className="mt-6 text-blackBrand/70 text-lg">
+          <p className="mt-6 text-blackBrand/70 font-Merriwether text-lg">
             This blog documents the quiet, messy, and beautiful journey of
             growing into adulthood.
           </p>
@@ -58,10 +58,10 @@ const Themes = () => {
 
               {/* Content */}
               <div className="p-10">
-                <h3 className="text-2xl font-semibold text-greenBrand mb-4">
+                <h3 className="text-2xl font-semibold font-Inter text-greenBrand mb-4">
                   {theme.title}
                 </h3>
-                <p className="text-blackBrand/70 leading-relaxed">
+                <p className="text-blackBrand/70 font-Merriwether leading-relaxed">
                   {theme.description}
                 </p>
               </div>
