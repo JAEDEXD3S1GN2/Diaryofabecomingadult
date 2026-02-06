@@ -24,7 +24,7 @@ const Navbar = () => {
     <>
     <div className="sm:flex sm:justify-between sm:items-center sm:border-b sm:py-3.5 sm:px-2 sm:border-black hidden">
          <div><img className="w-20 h-15" src={Logo} alt="Doabalogo" /></div>
-         <div className='text-orangeBrand flex gap-3 font-semibold text-xl font-robotocondensed'>
+         <div className='text-orangeBrand flex gap-3 font-semibold text-2xl font-montserrat'>
          <Link to={"/"} className='hover:text-black'>Home</Link> 
          <Link to={"/Blog"} className='hover:text-black'>Blog</Link> 
          <Link to={"/Contact"} className='hover:text-black'>Contact Us</Link> 
@@ -37,7 +37,7 @@ const Navbar = () => {
       <div><img className='w-20 h-15' src={Logo} alt="Doabalogo" /></div>
       <div>{mobileNav?  (   
     <div className='flex flex-col gap-3'><div className='text-orangeBrand text-4xl hover:text-black self-end' onClick={() => {closeNav()}} ><IoClose /> </div> 
-      <div className='text-orangeBrand flex flex-col gap-3 font-semibold text-xl font-robotocondensed'>
+      <div className='text-orangeBrand flex flex-col gap-3 font-semibold text-2xl font-montserrat'>
          <Link to={"/"} className='hover:text-black'>Home</Link> 
          <Link to={"/Blog"} className='hover:text-black'>Blog</Link> 
          <Link to={"/Contact"} className='hover:text-black'>Contact Us</Link> 
@@ -59,3 +59,4 @@ const Navbar = () => {
 }
 
 export default Navbar
+
