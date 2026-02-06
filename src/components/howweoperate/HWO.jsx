@@ -27,10 +27,10 @@ const HowItWorks = () => {
       <div className="max-w-7xl mx-auto px-6">
         {/* Section Header */}
         <div className="text-center max-w-3xl mx-auto mb-20">
-          <h2 className="text-4xl md:text-5xl font-diary text-blackBrand">
+          <h2 className="text-4xl font-Inter md:text-5xl font-diary text-blackBrand">
             How This Website Works
           </h2>
-          <p className="mt-6 text-lg text-blackBrand/70">
+          <p className="mt-6 text-lg font-Merriwether text-blackBrand/70">
             This is a space built for growth — through reading, listening, and
             reflecting on real experiences.
           </p>
@@ -56,10 +56,10 @@ const HowItWorks = () => {
               </div>
 
               {/* Content */}
-              <h3 className="text-2xl font-semibold text-greenBrand mb-4">
+              <h3 className="text-2xl font-semibold font-Inter text-greenBrand mb-4">
                 {step.title}
               </h3>
-              <p className="text-blackBrand/70 leading-relaxed max-w-sm">
+              <p className="text-blackBrand/70  font-Merriwether leading-relaxed max-w-sm">
                 {step.description}
               </p>
             </div>
@@ -68,7 +68,7 @@ const HowItWorks = () => {
 
         {/* Closing Statement */}
         <div className="mt-24 text-center max-w-2xl mx-auto">
-          <p className="text-blackBrand/80 text-lg leading-relaxed">
+          <p className="text-blackBrand/80 font-Merriwether text-lg leading-relaxed">
             This isn’t about perfection or having it all figured out. It’s about
             showing up, learning continuously, and becoming — one story at a
             time.
