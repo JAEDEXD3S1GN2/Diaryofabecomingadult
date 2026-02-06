@@ -8,10 +8,10 @@ const Footer = () => {
         <div className="grid gap-16 md:grid-cols-4">
           {/* Brand / About */}
           <div className="md:col-span-2">
-            <h3 className="font-diary text-2xl mb-6">
+            <h3 className="font-diary font-Inter text-2xl mb-6">
               The Diary of a Becoming Adult
             </h3>
-            <p className="text-white/70 leading-relaxed max-w-md">
+            <p className="text-white/70 font-Merriwether leading-relaxed max-w-md">
               A personal space for growth, reflection, and honest conversations
               about becoming — through stories, blogs, and podcasts.
             </p>
@@ -19,10 +19,10 @@ const Footer = () => {
 
           {/* Navigation */}
           <div>
-            <h4 className="text-sm font-semibold uppercase tracking-wide mb-6">
+            <h4 className="text-sm font-semibold font-Inter uppercase tracking-wide mb-6">
               Explore
             </h4>
-            <ul className="space-y-4 text-white/70">
+            <ul className="space-y-4 font-Merriwether text-white/70">
               <li>
                 <a
                   href="/"
@@ -60,10 +60,10 @@ const Footer = () => {
 
           {/* Connect */}
           <div>
-            <h4 className="text-sm font-semibold uppercase tracking-wide mb-6">
+            <h4 className="text-sm font-semibold uppercase font-Inter tracking-wide mb-6">
               Connect
             </h4>
-            <ul className="space-y-4 text-white/70">
+            <ul className="space-y-4 font-Merriwether text-white/70">
               <li>
                 <a
                   href="#"
@@ -96,14 +96,14 @@ const Footer = () => {
         <div className="my-16 h-px bg-white/10"></div>
 
         {/* Bottom Section */}
-        <div className="flex flex-col md:flex-row items-center justify-between gap-6 text-sm text-white/60">
+        <div className="flex flex-col md:flex-row font-Inter items-center justify-between gap-6 text-sm text-white/60">
           <p>
             © {new Date().getFullYear()} The Diary of a Becoming Adult. All rights
             reserved.
           </p>
 
-          <p className="italic">
-            Still becoming. Still learning.
+          <p className="italic font-Merriwether">
+            One step at a time.
           </p>
         </div>
       </div>
