@@ -28,9 +28,12 @@ export default {
       fontFamily: {
         robotomono: ['"Roboto Mono"', 'monospace'],
         robotocondensed: ['"Roboto Condensed"', 'sans-serif'],
+        montserrat: ["'Montserrat'", 'sans-serif'],
+        Inter: ["'Inter'", 'sans-serif'],
 
       },
     },
   },
   plugins: [],
 };
+
