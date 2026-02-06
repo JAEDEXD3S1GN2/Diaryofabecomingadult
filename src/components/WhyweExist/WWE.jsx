@@ -6,7 +6,7 @@ const WWE = () => {
       <div className="w-full max-w-4xl flex flex-col gap-12">
 
         {/* Title */}
-        <h2 className="text-2xl md:text-3xl font-semibold text-gray-900">
+        <h2 className="text-2xl md:text-3xl font-semibold font-Inter text-gray-900">
           Why this diary exists
         </h2>
 
@@ -14,7 +14,7 @@ const WWE = () => {
         <div className="flex flex-col gap-8">
 
           {/* Left card */}
-          <div className="bg-gray-50 border border-gray-200 rounded-2xl px-6 py-4 w-fit max-w-md shadow-sm">
+          <div className="bg-gray-50 border border-gray-200 rounded-2xl font-Merriwether px-6 py-4 w-fit max-w-md shadow-sm">
             <p className="text-gray-700 leading-relaxed">
               This diary is not a guide to adulthood —  
               <span className="font-medium text-gray-900">
@@ -24,7 +24,7 @@ const WWE = () => {
           </div>
 
           {/* Right aligned reflection */}
-          <div className="flex flex-col self-end gap-3 max-w-md text-right">
+          <div className="flex flex-col self-end gap-3 max-w-md font-Merriwether text-right">
             <p className="text-sm uppercase tracking-wide text-gray-500">
               This is not advice
             </p>
@@ -39,7 +39,7 @@ const WWE = () => {
           </div>
 
           {/* Closing card */}
-          <div className="bg-gray-50 border border-gray-200 rounded-2xl px-6 py-4 w-fit max-w-md shadow-sm">
+          <div className="bg-gray-50 border border-gray-200 font-Merriwether rounded-2xl px-6 py-4 w-fit max-w-md shadow-sm">
             <p className="text-gray-700 leading-relaxed">
               If you’re figuring life out too,  
               <span className="font-medium text-gray-900">
